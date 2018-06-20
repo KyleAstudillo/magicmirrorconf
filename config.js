@@ -63,45 +63,37 @@ var config = {
 		position: "bottom_left",	// This can be any of the regions.
 		config: {
 			// See 'Configuration options' for more information.
-			video_id: "w3jLJU7DT5E"
+			video_id: "8jGnSosvX3c",
+                        autoplay: true,
+                        loop: true,
+                        modestbranding: true
 		        }
 	        },
 		{
 			module: "compliments",
 			position: "lower_third"
-		},
-		{
-			module: "currentweather",
-			position: "top_right",
 			config: {
-				location: "New York",
-				locationID: "",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "weatherforecast",
-			position: "top_right",
-			header: "Weather Forecast",
-			config: {
-				location: "New York",
-				locationID: "5128581",  //ID from http://www.openweathermap.org/help/city_list.txt
-				appid: "YOUR_OPENWEATHER_API_KEY"
-			}
-		},
-		{
-			module: "newsfeed",
-			position: "bottom_bar",
-			config: {
-				feeds: [
-					{
-						title: "New York Times",
-						url: "http://www.nytimes.com/services/xml/rss/nyt/HomePage.xml"
-					}
-				],
-				showSourceTitle: true,
-				showPublishDate: true
-			}
+				compliments: {
+		anytime: [
+			"Hey there sexy!"
+		],
+		morning: [
+			"Good morning, handsome!",
+			"Enjoy your day!",
+			"How was your sleep?"
+		],
+		afternoon: [
+			"Hello, beauty!",
+			"You look sexy!",
+			"Looking good today!"
+		],
+		evening: [
+			"Wow, you look hot!",
+			"You look nice!",
+			"Hi, sexy!"
+		]
+		}
+	}
 		},
 	]
 
