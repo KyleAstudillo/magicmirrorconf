@@ -51,6 +51,22 @@ var config = {
 			}
 		},
 		{
+                        module: "MMM-Wallpaper",
+                        position: "fullscreen_below",
+                        config: { // See "Configuration options" for more information.
+                                source: "/r/EarthPorn",
+                                slideInterval: 60 * 1000 // Change slides every minute
+                        }
+                },
+		{
+		module: "MMM-EmbedYoutube", // Path to youtube module from modules folder Exmaple: MagicMirror/modules/custom/MMM-EmbedYoutube/ so it's custom/MMM-EmbedYoutube
+		position: "bottom_left",	// This can be any of the regions.
+		config: {
+			// See 'Configuration options' for more information.
+			video_id: "w3jLJU7DT5E"
+		        }
+	        },
+		{
 			module: "compliments",
 			position: "lower_third"
 		},
