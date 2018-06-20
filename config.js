@@ -74,26 +74,26 @@ var config = {
 			position: "lower_third"
 			config: {
 				compliments: {
-		anytime: [
-			"Hey there sexy!"
-		],
-		morning: [
-			"Good morning, handsome!",
-			"Enjoy your day!",
-			"How was your sleep?"
-		],
-		afternoon: [
-			"Hello, beauty!",
-			"You look sexy!",
-			"Looking good today!"
-		],
-		evening: [
-			"Wow, you look hot!",
-			"You look nice!",
-			"Hi, sexy!"
-		]
-		}
-	}
+					anytime: [
+						"Hello Kyle!"
+					],
+					morning: [
+						"Good morning!",
+						"Enjoy your day!",
+						"Dont forget to go to the gym!"
+					],
+					afternoon: [
+						"Good afternoon!",
+						"YDont forget to go to the gym!",
+						"Looking good today!"
+					],
+					evening: [
+						"Good Evening!",
+						"Dont forget to go to the gym!",
+						"Get a good nights rest"
+					]
+				}
+			}
 		},
 	]
 
